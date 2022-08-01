@@ -163,20 +163,20 @@ h2 {
 /* START FOOTER */
 .footer {
   max-width: 1920px;
-  background-color: #1b1b1d;
 }
 
 .container-fluid {
   max-width: 1160px;
   display: flex;
   margin: 0 auto;
+  background-color: #1b1b1d;
 }
 
 .container-fluid
 
 .left {
   width: 40%;
-  padding: 60px;
+  padding: 0 60px 60px;
 }
 
 .img-footer {
@@ -191,6 +191,7 @@ h2 {
 .top-right {
   display: flex;
   justify-content: space-around;
+  padding-top: 60px;
 }
 
 .col-1 {
@@ -217,6 +218,23 @@ h2 {
 .title {
   font-size: 16px;
   color: white;
+  padding-bottom: 15px;
+}
+
+.item {
+  padding-top: 20px;
+}
+
+.item-footer {
+  color: white;
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+
+.bottom-right {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
 }
 
 /* END FOOTER */
