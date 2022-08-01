@@ -1,0 +1,171 @@
+/* START COMMON */
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  color: var(--text-color);
+}
+
+body {
+  margin: 0px auto;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.container-fluid {
+  width: 1920px;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+/* END COMMON */
+
+/* START HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  align-items: center;
+}
+
+.logo {
+  width: 125px;
+  height: 90px;
+  display: block;
+}
+
+.logo figure {
+  height: 100%;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  padding-bottom: 17px;
+
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  height: 68px;
+  justify-content: space-between;
+  border-right: 3px solid black;
+  padding-right: 23px;
+}
+
+.nav-bar__top {
+  display: flex;
+  gap: 60px;
+}
+
+.nav-bar__description {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-bar__icon {
+  background: url("../assets/images/desktop/Header/header_outlink_icon.png")
+    no-repeat right 6px;
+  padding-right: 14px;
+}
+
+.nav-bar__bottom {
+  display: flex;
+  justify-content: end;
+}
+
+.nav-bar__bottom > .nav-bar__description {
+  gap: 0;
+}
+
+.nav-bar__item {
+  padding: 0 26px;
+  border-right: 1px solid gray;
+}
+
+.nav-bar__item:last-child {
+  border-right: none;
+}
+
+.nav-bar__item a {
+  font-size: 24px;
+}
+
+.nav-bar__img {
+  padding: 0 23px;
+}
+/* END HEADER */
+
+/* START FOOTER */
+.footer {
+  max-width: 1920px;
+  background-color: #1b1b1d;
+}
+
+.container {
+  max-width: 1320px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.left {
+  width: 40%;
+  padding: 60px;
+}
+
+.img-footer {
+  width: 100%;
+  height: auto;
+}
+
+.right {
+  width: 60%;
+}
+
+.top-right {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col-1 {
+  width: calc(100% / 3);
+  position: relative;
+}
+
+.col-2 {
+  width: calc(100% / 3);
+  position: relative;
+}
+
+.col-3 {
+  width: calc(100% / 3);
+  position: relative;
+}
+
+.hr-tag {
+  width: 80%;
+  position: absolute;
+  border: 0.25px solid #323234;
+}
+
+.title {
+  font-size: 16px;
+  color: white;
+}
+/* END FOOTER */
