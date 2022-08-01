@@ -57,9 +57,13 @@
   justify-content: end;
 }
 
+.nav-bar__bottom > .nav-bar__description {
+  gap: 0;
+}
+
 .nav-bar__item {
   padding: 0 26px;
-  border-right: 1px solid red;
+  border-right: 1px solid gray;
 }
 
 .nav-bar__item:last-child {
