@@ -53,18 +53,18 @@ h2 {
 }
 
 .container-fluid {
-  width: 1920px;
+  width: 1160px;
 }
 
 .container {
-  width: 1320px;
+  width: 1000px;
   margin: 0 auto;
 }
 
 /* END COMMON */
 
 /* START HEADER */
-.header {
+.header-main {
   display: flex;
   justify-content: space-between;
   padding: 16px 0;
@@ -151,6 +151,13 @@ h2 {
   padding: 0 23px;
 }
 
+.navigation {
+    background-color: #EEEEEE;
+    padding-top: 69px;
+    padding-bottom: 20px;
+    color: #474747;
+}
+
 /* END HEADER */
 
 /* START FOOTER */
@@ -159,11 +166,13 @@ h2 {
   background-color: #1b1b1d;
 }
 
-.container {
-  max-width: 1320px;
+.container-fluid {
+  max-width: 1160px;
   display: flex;
   margin: 0 auto;
 }
+
+.container-fluid
 
 .left {
   width: 40%;
