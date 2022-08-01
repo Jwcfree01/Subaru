@@ -1,3 +1,36 @@
+/* START COMMON */
+* {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  color: var(--text-color);
+}
+
+body {
+  margin: 0px auto;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.container-fluid {
+  width: 1920px;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+/* END COMMON */
+
+/* START HEADER */
 .header {
   display: flex;
   justify-content: space-between;
@@ -73,3 +106,62 @@
 .nav-bar__img {
   padding: 0 23px;
 }
+/* END HEADER */
+
+/* START FOOTER */
+.footer {
+  max-width: 1920px;
+  background-color: #1b1b1d;
+}
+
+.container {
+  max-width: 1320px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.left {
+  width: 40%;
+  padding: 60px;
+}
+
+.img-footer {
+  width: 100%;
+  height: auto;
+}
+
+.right {
+  width: 60%;
+}
+
+.top-right {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col-1 {
+  width: calc(100% / 3);
+  position: relative;
+}
+
+.col-2 {
+  width: calc(100% / 3);
+  position: relative;
+}
+
+.col-3 {
+  width: calc(100% / 3);
+  position: relative;
+}
+
+.hr-tag {
+  width: 80%;
+  position: absolute;
+  border: 0.25px solid #323234;
+}
+
+.title {
+  font-size: 16px;
+  color: white;
+}
+/* END FOOTER */
