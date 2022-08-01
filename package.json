@@ -1,22 +1,19 @@
 {
-    "name": "practice-two",
-    "version": "1.0.0",
-    "description": "### August 1, 2022 <BR>",
-    "main": "index.js",
-    "scripts": {
-      "start": "parcel serve src/index.html",
-      "watch": "parcel watch",
-      "build": "parcel build"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "normalize.css": "^8.0.1",
-      "parcel": "^2.0.1"
-    },
-    "devDependencies": {
-      "@parcel/transformer-sass": "^2.0.1"
-    }
+  "name": "Subaru",
+  "version": "1.0.0",
+  "source": "/src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "description": "### Nov 24, 2021 <BR>",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "T2Team",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.6.2"
   }
-  
+}
