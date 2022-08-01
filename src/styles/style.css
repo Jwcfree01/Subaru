@@ -67,13 +67,12 @@ h2 {
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 16px;
+  padding: 16px 0;
   align-items: center;
 }
 
 .logo {
   width: 125px;
-  height: 90px;
   display: block;
 }
 
@@ -88,8 +87,6 @@ h2 {
 
 .nav {
   display: flex;
-  padding-bottom: 17px;
-
   align-items: center;
 }
 
@@ -98,13 +95,18 @@ h2 {
   flex-direction: column;
   height: 68px;
   justify-content: space-between;
-  border-right: 3px solid black;
+  border-right: 4px solid black;
   padding-right: 23px;
 }
 
 .nav-bar__top {
   display: flex;
   gap: 60px;
+  align-items: center;
+}
+
+.nav-bar__search{
+    font-size: 11px;
 }
 
 .nav-bar__description {
@@ -116,6 +118,7 @@ h2 {
   background: url("../assets/images/desktop/Header/header_outlink_icon.png")
     no-repeat right 6px;
   padding-right: 14px;
+  font-size: 11px;
 }
 
 .nav-bar__bottom {
@@ -137,7 +140,7 @@ h2 {
 }
 
 .nav-bar__item a {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .nav-bar__img {
