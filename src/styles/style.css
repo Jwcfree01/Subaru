@@ -224,6 +224,65 @@ h2 {
 
 /* END BANNER */
 
+/* START TERMS */
+.terms {
+  padding: 80px 0 0;
+}
+
+.terms-title {
+  background-color: #646464;
+  margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+  color: white;
+  box-shadow: 5px 5px #E1E1E1;
+}
+
+.terms-title__content {
+  padding: 30px 445px;
+}
+
+.terms-content {
+  padding: 40px;
+}
+
+.terms-text {
+  text-align: center;
+  line-height: 30px;
+}
+
+.terms-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.terms-box__left {
+  background: linear-gradient(to top, #bf000a 50%, #cf000d 50%);
+  display: flex;
+  align-items: center;
+}
+
+.terms-box__content {
+  padding: 40px 95px;
+  font-size: 23px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+}
+
+.terms-box__right {
+  background: linear-gradient(to top, #0052a5 50%, #0060b2 50%);
+  display: flex;
+  align-items: center;
+}
+
+.terms-box__svg {
+  padding-right: 25px;
+}
+/* END TERMS */
+
 /* START CONTACT */
 .contact {
   background-color: white;
@@ -245,7 +304,8 @@ h2 {
 }
 
 .contact__info {
-  padding: 34px 188px 34px 102px;
+  padding: 24px 188px 34px 102px;
+  line-height: 30px;
 }
 
 /* END CONTACT */
