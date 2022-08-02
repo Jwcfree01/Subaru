@@ -266,7 +266,14 @@ h2 {
 .terms-box {
   display: flex;
   justify-content: space-between;
-  /* padding-top: 40px; */
+}
+
+.section-box {
+  padding-top: 40px;
+}
+
+.section-box__main {
+  padding: 40px 95px;
 }
 
 .terms-box__left {
@@ -276,11 +283,8 @@ h2 {
 }
 
 .terms-box__content {
-  /* padding: 40px 95px; */
-  /* font-size: 23px; */
   font-weight: 800;
   text-align: center;
-  /* line-height: 30px; */
   color: white;
 }
 
@@ -292,6 +296,11 @@ h2 {
 
 .terms-box__svg {
   padding-right: 25px;
+}
+
+.section-box__content {
+  font-size: 23px;
+  line-height: 30px;
 }
 /* END TERMS */
 
