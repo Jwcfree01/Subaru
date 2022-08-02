@@ -273,7 +273,7 @@ h2 {
 }
 
 .section-box__main {
-  padding: 40px 95px;
+  padding: 40px 0 40px 95px;
 }
 
 .terms-box__left {
@@ -295,7 +295,7 @@ h2 {
 }
 
 .terms-box__svg {
-  padding-right: 25px;
+  padding: 0 25px 0 100px;
 }
 
 .section-box__content {
