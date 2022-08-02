@@ -208,9 +208,21 @@ h2 {
 }
 
 .banner__box {
-  margin-top: 27px;
+  padding-top: 27px;
   display: flex;
   gap: 10px;
+}
+
+.box__main {
+  width: 205px;
+  height: 56px;
+  box-sizing: border-box;
+  padding: 10px 37px;
+}
+
+.box-banner__content {
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .box__text {
@@ -235,7 +247,7 @@ h2 {
   display: flex;
   align-items: center;
   color: white;
-  box-shadow: 5px 5px #E1E1E1;
+  box-shadow: 5px 5px #e1e1e1;
 }
 
 .terms-title__content {
@@ -254,7 +266,7 @@ h2 {
 .terms-box {
   display: flex;
   justify-content: space-between;
-  padding-top: 40px;
+  /* padding-top: 40px; */
 }
 
 .terms-box__left {
@@ -264,11 +276,11 @@ h2 {
 }
 
 .terms-box__content {
-  padding: 40px 95px;
-  font-size: 23px;
+  /* padding: 40px 95px; */
+  /* font-size: 23px; */
   font-weight: 800;
   text-align: center;
-  line-height: 30px;
+  /* line-height: 30px; */
   color: white;
 }
 
